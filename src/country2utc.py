@@ -42,3 +42,4 @@ offsets= [location2utc_offset(c)  for c in all_countries ]
 country2offsets_dict = dict(set(zip(all_countries, offsets)))
 with open('../input/country2offsets_dict.p','wb') as f:
     pickle.dump(country2offsets_dict, f)
+    

@@ -3,7 +3,6 @@ from datetime import datetime
 import torch
 import inspect
 
-
 class Configuration(object):
 
     def __init__(self):

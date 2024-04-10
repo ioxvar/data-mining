@@ -17,7 +17,6 @@ from sklearn.decomposition import TruncatedSVD
 from sklearn.preprocessing import MinMaxScaler, StandardScaler
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-
 class NNDataLoader():
     def __init__(self, data, config, shuffle=True, batch_size=128, continuous_features=None):
         self.item_id = torch.LongTensor(data.item_id.values)

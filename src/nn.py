@@ -3,7 +3,6 @@ from utils import *
 from data import *
 import torch.nn as nn
 
-
 class Net(torch.nn.Module):
     def __init__(self, config):
         super(Net, self).__init__()

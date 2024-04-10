@@ -21,7 +21,6 @@ import pytz
 
 tzf = TimezoneFinder()
 
-
 activation_getter = {'iden': lambda x: x, 'relu': F.relu, 'tanh': torch.tanh, 'sigm': torch.sigmoid}
 
 

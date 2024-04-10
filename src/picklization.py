@@ -15,3 +15,4 @@ with open('../input/test_v2.p','wb') as f:
 df = pd.read_csv('../input/item_metadata.csv')
 with open('../input/item_metadata.p','wb') as f:
     pickle.dump(df, f)    
+    

@@ -11,10 +11,6 @@ from datetime import datetime
 import pytz 
 
 
-
-
-
-
 model_name = 'nn_xnn_time_diff_v2'
 
 
