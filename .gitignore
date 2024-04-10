@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 /src/Merge.ipynb
-/src/
+/src/run_lgb.py
+/src/run_xgb.py
