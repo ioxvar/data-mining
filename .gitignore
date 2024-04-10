@@ -162,3 +162,6 @@ cython_debug/
 /src/Merge.ipynb
 /src/run_lgb.py
 /src/run_xgb.py
+.DS_Store
+/input
+/weights
